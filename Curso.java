@@ -14,7 +14,7 @@ public class Curso
     private List<Professor> professores = new ArrayList<Professor>();
     private List<Turma> turmas = new ArrayList<Turma>();
     private List<Aluno> egressos = new ArrayList<Aluno>();
-    private List<Aluno> alunos = new ArrayList<Aluno>();;
+    private List<Aluno> alunos = new ArrayList<Aluno>();
     
     public Curso(String nome, Professor coordenador) {
         this.nome = nome;
